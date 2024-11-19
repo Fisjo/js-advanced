@@ -5,3 +5,4 @@ Proyecto de JavaScript de conceptos "avanzados". Ejercicios y explicaciones sobr
     - Manejo de errores en callbacks
     - Ejemplo callback hell
     - Promesas
+    - Ejemplo de promise hell y 3 aproximaciones para resolverlo
