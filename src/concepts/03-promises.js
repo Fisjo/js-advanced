@@ -26,16 +26,38 @@ export const promiseComponent = (element) => {
     const id2 = '5d86371f1efebc31def272e2'; 
 
 
-    findHero(id1)
-        .then((hero1) => {
+    //! 3º Forma para promesas que no dependen entre si (damos un array de promesas)
+    Promise.all([
+        findHero(id1),
+        findHero(id2),
+    ])
+    .then( ([hero1, hero2]) => renderTwoHeroes(hero1, hero2) )
+    .catch(renderError);
+    
+
+    //! Forma 2 (mas optimizado)
+    // let hero1;
+    // findHero(id1)
+    //     .then(hero => {
+    //         hero1 = hero;
+    //         return findHero(id2); 
+    //     }).then(hero2 => {
+    //         renderTwoHeroes(hero1, hero2); 
+    //     })
+    //     .catch(renderError)
+
+
+    //! Forma 1 de hacerlo (basica)
+    // findHero(id1)
+    //     .then((hero1) => {
             
-            findHero(id2)
-                .then((hero2) => {
-                    renderTwoHeroes(hero1, hero2)
-                })
-                .catch(renderError); 
-        })
-        .catch(renderError); 
+    //         findHero(id2)
+    //             .then((hero2) => {
+    //                 renderTwoHeroes(hero1, hero2)
+    //             })
+    //             .catch(renderError); 
+    //     })
+    //     .catch(renderError); 
 
 }
 
