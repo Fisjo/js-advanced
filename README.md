@@ -3,3 +3,4 @@ Proyecto de JavaScript de conceptos "avanzados". Ejercicios y explicaciones sobr
     - Variables de Entorno (mediante el uso de Vite y .env)
     - Callback 
     - Manejo de errores en callbacks
+    - Ejemplo callback hell
