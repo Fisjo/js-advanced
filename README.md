@@ -7,3 +7,4 @@ Proyecto de JavaScript de conceptos "avanzados". Ejercicios y explicaciones sobr
     - Promesas (explicacion e implementaciones)
     - Ejemplo de promise hell
     - Promise race con ejemplos
+    - Funciones async
