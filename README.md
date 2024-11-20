@@ -8,3 +8,4 @@ Proyecto de JavaScript de conceptos "avanzados". Ejercicios y explicaciones sobr
     - Ejemplo de promise hell
     - Promise race con ejemplos
     - Funciones async
+    - Manejo de errores en funciones async
