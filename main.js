@@ -32,4 +32,4 @@ const element = document.querySelector('.card');
 // promiseComponent(element); 
 // promiseRaceComponent(element);
 // asyncComponent(element);
-asyncAwaitComponent(); 
+asyncAwaitComponent(element); 
