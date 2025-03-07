@@ -9,3 +9,6 @@ Proyecto de JavaScript de conceptos "avanzados". Ejercicios y explicaciones sobr
     - Promise race con ejemplos
     - Funciones async
     - Manejo de errores en funciones async
+    - For await
+    - Funciones generadoras
+    - Funciones generadoras async
